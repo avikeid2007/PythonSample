@@ -7,6 +7,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "HelloWorld", "HelloWorld\He
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CalculatorConsole", "CalculatorConsole\CalculatorConsole.pyproj", "{F657E7EC-3CCE-4346-9A50-C2D338057030}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "ClassSample", "ClassSample\ClassSample.pyproj", "{9B7C4A40-4CE7-47D5-9D93-B7A7E9DEAE58}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "MySqlSample", "MySqlSample\MySqlSample.pyproj", "{75BCB950-5866-4550-AB64-974E4891FB43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,10 @@ Global
 		{4D4D48D0-85F2-43C6-AE3B-B65CE738EF00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F657E7EC-3CCE-4346-9A50-C2D338057030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F657E7EC-3CCE-4346-9A50-C2D338057030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7C4A40-4CE7-47D5-9D93-B7A7E9DEAE58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7C4A40-4CE7-47D5-9D93-B7A7E9DEAE58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75BCB950-5866-4550-AB64-974E4891FB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75BCB950-5866-4550-AB64-974E4891FB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
