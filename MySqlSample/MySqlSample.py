@@ -3,7 +3,7 @@ from MySqlDataService import MySqlDataService
 dataService=MySqlDataService("root","xavi@1234")
 dataService.createDatabase()
 
-print("Press 1 for show All posts \nPress 2 for show post \nPress 3 for add a new post \nPress 4 for delete a post \n Press 0 for Exit \n")
+print("Press 1 for show All posts \nPress 2 for show post \nPress 3 for add a new post \nPress 4 for delete a post \nPress 5 for reset database \n Press 0 for Exit \n")
 while True:
     choise = int(input("enter choise "))
     if choise == 0:
@@ -20,4 +20,6 @@ while True:
        dataService.savePost(input("Enter post title "),input("Enter post discription "),input("Enter post author name "),"22/02/2020",input("Enter post picture Url "))
     if choise == 4:
        dataService.deletePost(int(input("Enter post id ")))
+    if choise == 5:
+       dataService.InitData()
 
